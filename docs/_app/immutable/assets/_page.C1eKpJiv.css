@@ -1,1 +1,0 @@
-@media (width < 600px){.query-box{background-color:#90ee90}}@media (600px <= width < 1000px){.query-box{background-color:#f08080}}@media (1000px <= width){.query-box{background-color:#add8e6}}h4{margin:0;padding:0}.query-box{width:4em;height:1em;border:1px solid black}.code-section{width:100%;display:flex;column-gap:.5em;.code-preview{width:100%}}
