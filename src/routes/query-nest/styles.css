@@ -1,0 +1,38 @@
+@media (width < 600px) {
+  .query-box {
+    background-color: lightgreen;
+  }
+}
+
+@media (600px <= width < 1000px) {
+  .query-box {
+    background-color: lightcoral;
+  }
+}
+
+@media (1000px <= width) {
+  .query-box {
+	background-color: lightblue;
+  }
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.query-box {
+  width: 4em;
+  height: 1em;
+  border: 1px solid black;
+}
+
+.code-section {
+  width: 100%;
+  display: flex;
+  column-gap: 0.5em;
+  
+  .code-preview {
+	width: 100%;
+  }
+}
